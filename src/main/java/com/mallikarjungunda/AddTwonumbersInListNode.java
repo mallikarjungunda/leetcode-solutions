@@ -17,7 +17,7 @@ public class AddTwonumbersInListNode {
     }
 
     // this is used 2 ms of runtime in leet code
-    private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);
         ListNode current = result;
         int carry = 0;
@@ -46,7 +46,7 @@ public class AddTwonumbersInListNode {
     }
 
     //this takes 1ms of processing time
-    private static ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+    static ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode();
         ListNode cur = dummy;
         int carry = 0;

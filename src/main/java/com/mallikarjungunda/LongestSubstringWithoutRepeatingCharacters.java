@@ -10,7 +10,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         System.out.println(maxLengthOfSubString2(str));
     }
 
-    private static int maxLengthOfSubString(String str) {
+    static int maxLengthOfSubString(String str) {
         int result = 0;
         for (int i=0; i < str.length(); i ++){
             Set<Character> chatSet = new HashSet<>();
@@ -28,7 +28,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
 
-    private static int maxLengthOfSubString2(String s){
+    static int maxLengthOfSubString2(String s){
         int[] lastSeen = new int[128];
         int left = 0;
         int maxLength = 0;

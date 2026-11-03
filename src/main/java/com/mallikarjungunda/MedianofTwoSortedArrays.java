@@ -13,7 +13,7 @@ public class MedianofTwoSortedArrays {
         System.out.println(result);
     }
 
-    private static double calculateMedian(int[] nums1, int[] nums2) {
+    static double calculateMedian(int[] nums1, int[] nums2) {
         double median = 0;
         int[] mergedArray = new int[nums1.length + nums2.length];
         System.arraycopy(nums1, 0, mergedArray, 0, nums1.length);
